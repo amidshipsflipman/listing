@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Bedroom on Prospect Park at Parkside Q</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    :root {
+      --bg: #f5f7fb;
+      --card: #ffffff;
+      --accent: #1f4f7b;
+      --accent-soft: #e0ecf7;
+      --text: #222222;
+      --muted: #555555;
+    }
+    * {
+      box-sizing: border-box;
+    }
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+    }
+    .page {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 24px 16px 40px;
+    }
+    header {
+      text-align: center;
+      margin-bottom: 24px;
+    }
+    header h1 {
+      margin: 0 0 8px;
+      font-size: 1.9rem;
+      color: var(--accent);
+    }
+    header h2 {
+      margin: 0;
+      font-weight: 500;
+      font-size: 1.1rem;
+      color: var(--muted);
+    }
+    .badge-row {
+      margin-top: 14px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 8px;
+    }
+    .badge {
+      padding: 4px 10px;
+      border-radius: 999px;
+      background: var(--accent-soft);
+      color: var(--accent);
+      font-size: 0.8rem;
+      font-weight: 600;
+      letter-spacing: 0.03em;
+      text-transform: uppercase;
+    }
+
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 10px;
+      margin-bottom: 22px;
+    }
+    .gallery img {
+      width: 100%;
+      height: 220px;
+      object-fit: cover;
+      border-radius: 8px;
+      background: #ddd;
+      display: block;
+    }
+
+    .card {
+      background: var(--card);
+      border-radius: 10px;
+      padding: 18px 18px 6px;
+      margin-bottom: 14px;
+      box-shadow: 0 4px 14px rgba(0, 0, 0, 0.05);
+    }
+    .card h3 {
+      margin: 0 0 8px;
+      font-size: 1.1rem;
+      color: var(--accent);
+    }
+    .card p {
+      margin: 0 0 8px;
+      color: var(--muted);
+      font-size: 0.96rem;
+    }
+    .card ul {
+      padding-left: 18px;
+      margin: 4px 0 2px;
+      color: var(--muted);
+      font-size: 0.96rem;
+    }
+
+    .contact-card {
+      text-align: center;
+      border-left: 4px solid var(--accent);
+    }
+    .contact-name {
+      font-weight: 600;
+      margin-bottom: 4px;
+    }
+    .email-link {
+      color: var(--accent);
+      text-decoration: none;
+      font-weight: 500;
+      word-break: break-all;
+    }
+    .email-link:hover {
+      text-decoration: underline;
+    }
+
+    @media (min-width: 720px) {
+      .page {
+        padding: 30px 24px 48px;
+      }
+      header h1 {
+        font-size: 2.1rem;
+      }
+      .gallery img {
+        height: 240px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="page">
+    <header>
+      <h1>Bedroom on Prospect Park at Parkside Q</h1>
+      <h2>Room for 1‑Year Sublet Available Now</h2>
+      <div class="badge-row">
+        <div class="badge">Prospect Park</div>
+        <div class="badge">Parkside Q</div>
+        <div class="badge">1‑Year Sublet</div>
+      </div>
+    </header>
+
+    <!-- Gallery with reversed image order -->
+    <section class="gallery">
+  <a href="TGUYQI-PXL_20250302_181649576.webp" target="_blank">
+    <img src="TGUYQI-PXL_20250302_181649576.webp" alt="Dining area with large plants and bookshelves">
+  </a>
+  <a href="SzFYyx-PXL_20250302_181723227.webp" target="_blank">
+    <img src="SzFYyx-PXL_20250302_181723227.webp" alt="Bright kitchen with white cabinets and appliances">
+  </a>
+  <a href="FiNCii-PXL_20250302_183252365.webp" target="_blank">
+    <img src="FiNCii-PXL_20250302_183252365.webp" alt="Living room with sofa and armchair">
+  </a>
+  <a href="ADX9nU-PXL_20250302_173003439.webp" target="_blank">
+    <img src="ADX9nU-PXL_20250302_173003439.webp" alt="Bedroom angle showing windows and dresser">
+  </a>
+  <a href="C_Z2CG-PXL_20250302_182014700.webp" target="_blank">
+    <img src="C_Z2CG-PXL_20250302_182014700.webp" alt="Bedroom with bed and wardrobe">
+  </a>
+</section>
+
+
+    <section class="card">
+      <h3>About the Room + Apartment</h3>
+      <p>The available room is a large, comfortable, unfurnished bedroom  - the furniture in the bedroom pictures has been removed (the living room is furnished as shown.) The apartment is on the first‑floor, looking directly out at Prospect Park.</p>
+      <p>The apartment is located just steps from the Parkside Q subway station, making commuting and getting around the city easy.</p>
+    </section>
+
+    <section class="card">
+      <h3>The Neighborhood</h3>
+      <p>The neighborhood is everyday, diverse, non‑hipster Brooklyn &mdash; a relaxed, down‑to‑earth place to come home to after work or school.</p>
+    </section>
+
+    <section class="card">
+      <h3>What You'll Share</h3>
+      <p>You'll share the bathroom, kitchen, and living room with your roommate.</p>
+    </section>
+
+    <section class="card">
+      <h3>About your roommate</h3>
+      <p>I'm a 55‑year‑old man looking for a friendly, low‑key guest who is willing to communicate about and respect agreements on use of shared spaces and enjoys a peaceful living environment.</p>
+      <p>I'm neat and mostly uncluttered. I work in production and sometimes work from home when I'm not on set.</p>
+    </section>
+
+    <section class="card contact-card">
+      <div class="contact-name">Phil S</div>
+      <div>
+        Email:
+        <a class="email-link" href="mailto:listing.stability728@passfwd.com">
+          listing.stability728@passfwd.com
+        </a>
+      </div>
+    </section>
+  </div>
+</body>
+</html>
+
